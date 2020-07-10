@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="container">
-      helllooooo!!!!!!!
+      <h1>React Movie App</h1>
     </div>
   );
 }
