@@ -4,7 +4,7 @@ import React from 'react';
     return(
         <form className="form">
             <label htmlFor="query" className="Label">
-
+                <input type="text" name="query" placeholder="Search here ..." />
             </label>
         </form>
     )
