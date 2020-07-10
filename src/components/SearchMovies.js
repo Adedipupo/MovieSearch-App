@@ -1,11 +1,11 @@
 import React from 'react';
 
-const SearchMovies = () => {
-return(
-  <div>
-     
-  </div>
-)
+ SearchMovies() {
+    return(
+        <form>
+            
+        </form>
+    )
 }
 
 export default SearchMovies;
