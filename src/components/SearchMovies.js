@@ -1,6 +1,7 @@
 import React from 'react';
 
-export default searchMovies() {
+export default SearchMovies() {
+
      const searchMovies = async (e) => {
           e.preventDefault();
          console.log("submitting!!!!1");
