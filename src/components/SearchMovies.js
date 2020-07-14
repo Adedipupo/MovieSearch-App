@@ -5,13 +5,13 @@ function SearchMovies() {
     e.preventDefault();
     console.log("submitting!!!!1");
 
-    const query = "Jurassic park";
+      const query = "Jurassic Park";
 
-    const url = `https://api.themoviedb.org/3/movie/550?api_key=fa2fa335b93284c5277907e139256806ab&language=en-US&query=${query}&page=1&include_adult=false`;
+      const url = `https://api.themoviedb.org/3/search/movie?api_key=5dcf7f28a88be0edc01bbbde06f024ab&language=en-US&query=${query}&page=1&include_adult=false`;
 
-    const res = await fetch(url);
-    const data = await res.json();
-    console.log(data);
+      const res = await fetch(url);
+      const data = await res.json();
+      console.log(data);
   };
 
   return (
