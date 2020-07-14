@@ -13,7 +13,8 @@ function SearchMovies() {
                     &page=1&include_adult=false`;
 
            const res = await fetch(url);
-                    
+           const data = await (res.json);
+           console.log(data);
 
      }
 
