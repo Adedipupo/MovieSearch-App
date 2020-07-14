@@ -1,6 +1,6 @@
 import React from 'react';
 
- function SearchMovies() {
+ function searchMovies() {
     return(
         <form className="form">
             <label className="label" htmlFor="query">Movie Name</label>
