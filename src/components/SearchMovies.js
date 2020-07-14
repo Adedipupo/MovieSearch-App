@@ -9,9 +9,12 @@ function SearchMovies() {
 
     const url = `https://api.themoviedb.org/3/movie/550?api_key=fa2fa335b93284c5277907e139256806&language=en-US&query=${query}&page=1&include_adult=false`;
 
+    try{
       const res = await fetch(url);
       const data = await res.json();
       console.log(data);
+    }
+
   };
 
   return (
