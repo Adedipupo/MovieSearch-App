@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default SearchMovies() {
+function SearchMovies() {
 
      const searchMovies = async (e) => {
           e.preventDefault();
@@ -16,3 +16,4 @@ export default SearchMovies() {
         </form>
     )
 }
+export default SearchMovies;
