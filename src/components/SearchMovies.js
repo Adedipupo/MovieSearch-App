@@ -12,6 +12,9 @@ function SearchMovies() {
                     api_key=fa2fa335b93284c5277907e139256806ab&language=en-US&query=${query}
                     &page=1&include_adult=false`;
 
+           const res = await fetch(url);
+                    
+
      }
 
     return(
