@@ -37,6 +37,9 @@ function SearchMovies() {
       <button className="button" type="submit">
         Search
       </button>
+      <div className="card-lists">
+        {movies.map(movie => movie.title)}
+      </div>
     </form>
   );
 }
