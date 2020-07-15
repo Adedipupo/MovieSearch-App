@@ -22,9 +22,6 @@ function SearchMovies() {
 
   };
 
-  handleQuery(props){
-    (()=>{  })
-  }
 
   return (
     <form className="form" onSubmit={searchMovies}>
@@ -37,7 +34,7 @@ function SearchMovies() {
         name="query"
         placeholder="i.e. Jurassic Park"
         value={query}
-        onChange={handleQuery}
+        onChange={(e)=>setQuery(e.target.value)}
       />
       <button className="button" type="submit">
         Search
