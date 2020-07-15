@@ -32,6 +32,8 @@ function SearchMovies() {
         type="text"
         name="query"
         placeholder="i.e. Jurassic Park"
+        value={query}
+        onChange={handleQuery}
       />
       <button className="button" type="submit">
         Search
