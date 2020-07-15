@@ -22,6 +22,10 @@ function SearchMovies() {
 
   };
 
+  handleQuery(props){
+    (()=>{  })
+  }
+
   return (
     <form className="form" onSubmit={searchMovies}>
       <label className="label" htmlFor="query">
