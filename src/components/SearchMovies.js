@@ -13,7 +13,7 @@ function SearchMovies() {
     try{
       const res = await fetch(url);
       const data = await res.json();
-      console.log(data.results);
+       setMovies(data.results);
     }catch(err){
       console.error(err);
     }
